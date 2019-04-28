@@ -4,7 +4,7 @@ namespace App\Models;
 
 class Reply extends Model
 {
-    protected $fillable = [ 'content'];
+    protected $fillable = ['content'];
 
     public function user()
     {
@@ -15,5 +15,6 @@ class Reply extends Model
     {
         return $this->belongsTo(Topic::class);
     }
+
 
 }
