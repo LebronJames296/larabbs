@@ -16512,12 +16512,12 @@ body {
 .topics-index-page .topic-list .meta,
 .categories-show-page .topic-list .meta {
   font-size: 0.9em;
-  color: #b3b3b3;
+  color: #7A378B;
 }
 
-.topics-index-page .topic-list .meta a,
-.categories-show-page .topic-list .meta a {
-  color: #b3b3b3;
+.topics-index-page .topic-list .meta a.text-secondary,
+.categories-show-page .topic-list .meta a.text-secondary {
+  color: #76EE00;
 }
 
 .topics-index-page .topic-list .badge,
@@ -17016,5 +17016,20 @@ body {
 .topic-reply .meta {
   font-size: 0.9em;
   color: #b3b3b3;
+}
+
+/* 消息通知 */
+
+.notification-badge .badge {
+  font-size: 12px;
+  margin-top: 14px;
+}
+
+.notification-badge .badge-secondary {
+  background-color: #EBE8E8;
+}
+
+.notification-badge .badge-hint {
+  background-color: #d15b47 !important;
 }
 

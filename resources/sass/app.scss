@@ -93,10 +93,10 @@ body {
 
     .meta {
       font-size: 0.9em;
-      color: #b3b3b3;
+      color: #7A378B;
 
-      a {
-        color: #b3b3b3;
+      a.text-secondary{
+        color: #76EE00;
       }
     }
 
@@ -151,4 +151,21 @@ body {
         font-size: .9em;
         color: #b3b3b3;
     }
+}
+
+
+/* 消息通知 */
+.notification-badge {
+  .badge {
+    font-size: 12px;
+    margin-top: 14px;
+  }
+
+  .badge-secondary {
+    background-color: #EBE8E8;
+  }
+
+  .badge-hint {
+    background-color: #d15b47 !important;
+  }
 }
