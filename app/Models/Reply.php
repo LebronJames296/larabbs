@@ -15,6 +15,10 @@ class Reply extends Model
     {
         return $this->belongsTo(Topic::class);
     }
-
+    public function updateReplyCount()
+    {
+        $this->reply_count = $this->replies->count();
+        $this->save();
+    }
 
 }
