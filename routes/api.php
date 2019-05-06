@@ -39,4 +39,8 @@ $api->version('v1', [
 
         });
 
+       // 图片验证码
+    $api->post('captchas', 'CaptchasController@store')
+         ->name('api.captchas.store');
+
 });
